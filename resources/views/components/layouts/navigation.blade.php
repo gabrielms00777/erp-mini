@@ -13,7 +13,8 @@
         <div class="navbar-nav flex-row d-lg-none">
             <div class="nav-item d-none d-lg-flex me-3">
                 <div class="btn-list">
-                    <a wire:navigate href="https://github.com/tabler/tabler" class="btn" target="_blank" rel="noreferrer">
+                    <a wire:navigate href="https://github.com/tabler/tabler" class="btn" target="_blank"
+                        rel="noreferrer">
                         <!-- Download SVG icon from http://tabler-icons.io/i/brand-github -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -24,7 +25,8 @@
                         </svg>
                         Source code
                     </a>
-                    <a wire:navigate href="https://github.com/sponsors/codecalm" class="btn" target="_blank" rel="noreferrer">
+                    <a wire:navigate href="https://github.com/sponsors/codecalm" class="btn" target="_blank"
+                        rel="noreferrer">
                         <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon text-pink" width="24" height="24"
                             viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
@@ -321,7 +323,7 @@
                             <a class="nav-link" wire:navigate href="./naturezas">Naturezas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" wire:navigate href="./grupos">Grupos</a>
+                            <a class="nav-link" wire:navigate href="{{ route('admin.groups.index') }}">Grupos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" wire:navigate href="./estados-de-venda">Estados de Venda</a>
@@ -364,7 +366,8 @@
                             <a class="nav-link" wire:navigate href="./fluxo-de-caixa">Fluxo de Caixa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" wire:navigate href="./relatorios-financeiros">Relatórios Financeiros</a>
+                            <a class="nav-link" wire:navigate href="./relatorios-financeiros">Relatórios
+                                Financeiros</a>
                         </li>
                     </ul>
                 </li>
